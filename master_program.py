@@ -1,7 +1,7 @@
 import os
 from appJar import gui
 
-__version__ = "0.1"
+__version__ = "0.2"
 
 def update(dl_url, force_update=False):
     """
@@ -227,4 +227,4 @@ def build_main_UI():
 
 
 if __name__ == "__main__":
-	update("https://stash.sd.apple.com/users/tjalal/repos/master-program/raw/master_program.py?at=refs%2Fheads%2Fmaster")
+	update("https://raw.githubusercontent.com/TJalal/Master-Program/master/master_program.py")
